@@ -1,0 +1,45 @@
+Microsoft Windows [Version 10.0.22621.3085]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Dell\Downloads\basic (3)\basic>python -m venv task_app
+
+C:\Users\Dell\Downloads\basic (3)\basic>pip install pandas scikit-learn
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: pandas in c:\program files\python310\lib\site-packages (2.2.1)
+Requirement already satisfied: scikit-learn in c:\program files\python310\lib\site-packages (1.4.1.post1)
+Requirement already satisfied: numpy<2,>=1.22.4 in c:\program files\python310\lib\site-packages (from pandas) (1.26.4)
+Requirement already satisfied: python-dateutil>=2.8.2 in c:\program files\python310\lib\site-packages (from pandas) (2.9.0.post0)
+Requirement already satisfied: pytz>=2020.1 in c:\program files\python310\lib\site-packages (from pandas) (2024.1)
+Requirement already satisfied: tzdata>=2022.7 in c:\program files\python310\lib\site-packages (from pandas) (2024.1)
+Requirement already satisfied: scipy>=1.6.0 in c:\program files\python310\lib\site-packages (from scikit-learn) (1.12.0)
+Requirement already satisfied: joblib>=1.2.0 in c:\program files\python310\lib\site-packages (from scikit-learn) (1.3.2)
+Requirement already satisfied: threadpoolctl>=2.0.0 in c:\program files\python310\lib\site-packages (from scikit-learn) (3.3.0)
+Requirement already satisfied: six>=1.5 in c:\program files\python310\lib\site-packages (from python-dateutil>=2.8.2->pandas) (1.16.0)
+
+C:\Users\Dell\Downloads\basic (3)\basic>python main.py
+
+Task Management App
+1. Add Task
+2. Remove Task
+3. List Tasks
+4. Recommend Task
+5. Exit
+Select an option: 3
+                            description priority
+0                         Buy groceries     High
+1               Complete project report   Medium
+2      Schedule a meeting with the team      Low
+3  Prepare presentation for the meeting   Medium
+4                         Pay the bills     High
+5                              Exercise      Low
+
+Task Management App
+1. Add Task
+2. Remove Task
+3. List Tasks
+4. Recommend Task
+5. Exit
+Select an option: 5
+Goodbye!
+
+C:\Users\Dell\Downloads\basic (3)\basic
